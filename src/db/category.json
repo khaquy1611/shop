@@ -1,0 +1,50 @@
+[
+  {
+    "type": "trang-diem-makeup",
+    "name": "Trang điểm Makeup",
+    "id": "dc8c71ed-2023-4c97-bc88-a357e0706ad5",
+    "en_name": "Makeup"
+  },
+  {
+    "type": "son-moi-lips",
+    "name": "Son môi lips",
+    "id": "43ccb494-2a90-429e-90ec-7cac522098bb",
+    "en_name": "Lips"
+  },
+  {
+    "type": "cham-soc-da-skincare",
+    "name": "Chăm sóc da skincare",
+    "id": "941184da-6f4f-46a0-8140-1031cf96bb54",
+    "en_name": "Skin Care"
+  },
+  {
+    "type": "cham-soc-co-the-bath-body",
+    "name": "Chăm sóc cơ thể",
+    "id": "a9f280eb-3a11-4a82-bc01-30453e70af19",
+    "en_name": "Body Care"
+  },
+  {
+    "type": "cham-soc-toc-hair",
+    "name": "Chăm sóc tóc",
+    "id": "e9142503-fd1c-471d-9728-17745f598929",
+    "en_name": "Hair Care"
+  },
+  {
+    "type": "dung-cu-tools-brushes",
+    "name": "Dụng cụ",
+    "id": "8e158e46-cc55-43e8-a108-a71c81c471ec",
+    "en_name": "Tools & Brushes"
+  },
+  {
+    "type": "nuoc-hoa-perfume",
+    "name": "Nước hoa",
+    "id": "0076d254-c2e7-433e-8b01-fc652d0f794f",
+    "en_name": "Perfume"
+  },
+  {
+    "type": "my-pham-khac",
+    "name": "Mỹ phẩm khác",
+    "id": "92ec0caf-5c24-46cc-939a-598dcddd32f4",
+    "en_name": "Other"
+  }
+]

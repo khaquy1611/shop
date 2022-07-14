@@ -1,0 +1,118 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "prettier",
+    "airbnb"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["react", "react-hooks", "@typescript-eslint"],
+  "rules": {
+    "jsx-a11y/anchor-is-valid": "off",
+    "@next/next/no-img-element": "off",
+    "implicit-arrow-linebreak": "off",
+    "linebreak-style": 0,
+    "arrow-body-style": "off",
+    "import/no-unresolved": "off",
+    "object-curly-newline": "off",
+    "react/require-default-props": "off",
+    "comma-dangle": ["error", "never"],
+    "space-before-function-paren": "off",
+    "react/jsx-props-no-spreading": "off",
+    "import/extensions": "off",
+    "no-restricted-globals": "off",
+    "object-curly-spacing": ["error", "always"],
+    "import/no-extraneous-dependencies": "off",
+    "react/jsx-wrap-multilines": ["error", { "declaration": false, "assignment": false }],
+    "@typescript-eslint/no-unused-vars": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error",
+    "import/order": [
+      "error",
+      {
+        "groups": ["parent", "internal", "external", "builtin", "type"],
+        "pathGroups": [
+          {
+            "pattern": "react",
+            "group": "parent",
+            "position": "before"
+          },
+          {
+            "pattern": "components/**",
+            "group": "builtin",
+            "position": "before"
+          },
+          {
+            "pattern": "styles/**",
+            "group": "builtin",
+            "position": "before"
+          },
+          {
+            "pattern": "types",
+            "group": "builtin",
+            "position": "before"
+          },
+          {
+            "pattern": "types/**",
+            "group": "builtin",
+            "position": "before"
+          },
+          {
+            "pattern": "rest/**",
+            "group": "builtin",
+            "position": "before"
+          },
+          {
+            "pattern": "services/**",
+            "group": "builtin",
+            "position": "before"
+          },
+          {
+            "pattern": "db/**",
+            "group": "builtin",
+            "position": "before"
+          },
+          {
+            "pattern": "utils/**",
+            "group": "builtin",
+            "position": "before"
+          },
+          {
+            "pattern": "utils",
+            "group": "builtin",
+            "position": "before"
+          },
+          {
+            "pattern": "constants/**",
+            "group": "type",
+            "position": "before"
+          },
+          {
+            "pattern": "constants",
+            "group": "type",
+            "position": "before"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": ["react"],
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ],
+    "indent": ["error", 2],
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/jsx-filename-extension": ["error", { "extensions": [".ts", ".tsx"] }],
+    "react/function-component-definition": [
+      "error",
+      {
+        "namedComponents": "arrow-function"
+      }
+    ],
+    "react/jsx-one-expression-per-line": "off",
+    "@typescript-eslint/no-explicit-any": "error",
+    "operator-linebreak": ["error", "after", { "overrides": { "?": "ignore", ":": "ignore" } }]
+  }
+}

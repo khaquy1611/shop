@@ -1,0 +1,4 @@
+include:
+  - project: 'gray/devops'
+    ref: main
+    file: '/shop/.gitlab-ci.yml'

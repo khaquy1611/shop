@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": false,
+    "module": "CommonJS",
+    "target": "es6",
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "strictNullChecks": false,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "removeComments": true,
+    "allowJs": true,
+    "lib": [
+      "dom",
+      "es2017",
+      "es2015",
+      "es2016",
+      "esnext"
+    ],
+    "jsx": "preserve",
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "incremental": true
+  },
+  "include": [
+    ".",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
